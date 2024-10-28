@@ -1,5 +1,5 @@
 from django.contrib import admin
-from core.models import Todo
+from main_project_fldr.core.models import Todo
 
 class TodoAdmin(admin.ModelAdmin):
     list_display = ['description', 'is_completed', 'user']

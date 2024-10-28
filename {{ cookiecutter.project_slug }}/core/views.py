@@ -2,8 +2,8 @@
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.http import require_POST, require_http_methods
-from core.models import Todo
-from core.forms import TodoForm
+from main_project_fldr.core.models import Todo
+from main_project_fldr.core.forms import TodoForm
 
 
 @login_required
